@@ -82,19 +82,7 @@ const PortfolioForm = ({onSubmit, initialData = {}}) => {
             id="jobTitle"/>
         </div>
 
-        {/* <div className="form-group">
-            <label htmlFor="street">Job Picture</label>
-            <input
-            // values={values}
-            // setValues={setValues}
-            {...register("photo") }
-            name="photo"
-            type="file"
-            className="form-control"
-            id="photo"/>
-        </div> */}
-        {/* {JSON.stringify(register)} */}
-
+      
         <FileUpload
             className="form-group"
             values={values}

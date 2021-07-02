@@ -3,8 +3,10 @@ import BaseLayout from "../components/layouts/BaseLayout"
 import BasePage from "../components/BasePage"
 import { useGetUser } from '../functions/user'
 import { Row, Col } from 'reactstrap';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInbox } from 'react-icons/fa';
 import Link from 'next/link';
+import { MdEmail} from "react-icons/md";
+MdEmail
 
 const About = () => {
     // let history = useHistory()
@@ -67,6 +69,9 @@ const About = () => {
                     </Link>
                     <Link href="https://www.linkedin.com/in/kishon-stclair-95b5561aa/" >
                       <a className="icons-1" target="_"><FaLinkedin size={50}/></a>
+                    </Link>
+                    <Link href="mailto:kishon@clairvisual.com?Connecting" >
+                      <a className="icons-2" target="_"><MdEmail size={50}/></a>
                     </Link>
                   </div>
                 </Col>
