@@ -2,7 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/portfolios": "pages/portfolios.js",
-  "/": "pages/index.js",
-  "/api/v1/me": "pages/api/v1/me.js"
+  "/portfolios/new": "pages/portfolios/new.js",
+  "/dashboard": "pages/dashboard.js",
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
+  "/api/v1/me": "pages/api/v1/me.js",
+  "/api/v1/blogs/me": "pages/api/v1/blogs/me.js",
+  "/blogs/editor": "pages/blogs/editor.js"
 }

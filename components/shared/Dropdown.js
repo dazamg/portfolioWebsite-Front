@@ -18,7 +18,7 @@ export default class PortButtonDropdown extends React.Component {
   }
   
 
-  // TODO: Pass on item ID, don't use INDEX
+  
   renderMenu(items) {
     return (
       <DropdownMenu>
