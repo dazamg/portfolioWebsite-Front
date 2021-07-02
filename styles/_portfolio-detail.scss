@@ -1,0 +1,69 @@
+.portfolio-detail {
+  height: 100%;
+  background-image: linear-gradient(45deg, #4e54c8 0%, #8f94fb 100%);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+
+  .cover-container {
+    max-width: 42em;
+    color: #fff;
+    font-size: 40px;
+    margin-top: 10vh;
+  }
+
+  .left-side {
+    margin-top: 10vh;
+    // background-image: url('/workpics/shesail.jpg');
+    background-size: cover;
+    height: 70%;
+    width: 80%;
+    text-align: left;
+
+
+  }
+
+  .cover-heading {
+    font-weight: bold;
+    font-size: 65px;
+  }
+
+  .page-cover {
+    margin-top: 1vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 1vh;
+  }
+
+  .lead {
+    &.dates {
+      font-weight: bold;
+    }
+    &.info {
+      font-style: italic;
+    }
+  }
+
+
+  .btn.btn-lg.btn-secondary {
+    padding: .75rem 1.25rem;
+    color: #333;
+    text-shadow: none;
+    background-color: #fff;
+    border: .05rem solid #fff;
+  }
+  .lead-1 {
+    color: white;
+    font-size: 20px;
+  }
+
+  .color {
+    color: rgb(131, 220, 15);
+    font-weight: bold;
+  }
+
+}
+
+

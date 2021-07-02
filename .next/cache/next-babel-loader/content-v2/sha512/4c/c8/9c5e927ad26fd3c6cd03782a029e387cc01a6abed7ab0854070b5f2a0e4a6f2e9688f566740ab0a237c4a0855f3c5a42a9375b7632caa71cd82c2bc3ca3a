@@ -1,0 +1,1 @@
+{"ast":null,"code":"import useSWR from 'swr';\nexport const fetcher = url => fetch(url).then(async res => {\n  const result = await res.json();\n\n  if (res.status !== 200) {\n    return Promise.reject(result);\n  } else {\n    return result;\n  }\n});","map":null,"metadata":{},"sourceType":"module"}
