@@ -1,9 +1,9 @@
-import BaseLayout from "@/components/layouts/BaseLayout"
-import BasePage from "@/components/BasePage"
-import withAuth from '@/hoc/withAuth';
+import BaseLayout from "../../../components/layouts/BaseLayout"
+import BasePage from "../../../components/BasePage"
+import withAuth from '../../../hoc/withAuth';
 import { Editor } from 'slate-simple-editor';
 import { toast } from 'react-toastify';
-import { useGetBlog, useUpdateBlog } from 'functions/blogs'
+import { useGetBlog, useUpdateBlog } from '../../../functions/blogs'
 import { useRouter} from 'next/router';
 
 

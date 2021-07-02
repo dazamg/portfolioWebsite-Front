@@ -1,8 +1,8 @@
-import BaseLayout from "@/components/layouts/BaseLayout"
-import BasePage from "@/components/BasePage"
+import BaseLayout from "../../../components/layouts/BaseLayout"
+import BasePage from "../../../components/BasePage"
 import { formatDate } from 'helpers/function';
-import { useGetUser } from '@/functions/user'
-import PortfolioApi from '@/serv/api/portfolios'
+import { useGetUser } from '../../../functions/user'
+import PortfolioApi from '../../../serv/api/portfolios'
 import { Row, Col} from 'reactstrap';
 
 const Portfolio = ({portfolio}) => {

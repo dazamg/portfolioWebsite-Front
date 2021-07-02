@@ -1,9 +1,9 @@
 import { useState, useRef, useEffect } from 'react';
-import BaseLayout from '@/components/layouts/BaseLayout';
-import BasePage from "@/components/BasePage"
+import BaseLayout from "../components/layouts/BaseLayout"
+import BasePage from "../components/BasePage"
 import { Container, Row, Col } from 'reactstrap';
 import Typed from 'react-typed';
-import { useGetUser } from '@/functions/user';
+import { useGetUser } from '../functions/user';
 
 const ROLES = ['Developer', 'Tech Lover', 'Team Player',  'React.js', 'Python'];
 const Index = () => {

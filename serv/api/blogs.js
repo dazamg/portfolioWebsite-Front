@@ -1,5 +1,4 @@
 import BaseApi from "./BaseApi";
-import axios from 'axios';
 
 class BlogApi extends BaseApi{
 

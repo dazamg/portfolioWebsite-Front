@@ -1,5 +1,5 @@
-import BlogApi from '@/serv/api/blogs';
-import auth0 from '@/utils/auth0';
+import BlogApi from '../../../../serv/api/blogs';
+import auth0 from '../../../../utils/auth0';
 
 
 export default async function handleBlog(req, res) {

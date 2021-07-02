@@ -1,5 +1,5 @@
 import axios from 'axios';
-import BaseApi from "./BaseApi";
+import BaseApi from './BaseApi';
 
 class PortfolioApi extends BaseApi{
 

@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-import BaseLayout from "@/components/layouts/BaseLayout"
-import BasePage from "@/components/BasePage"
-import { useGetUser } from '@/functions/user'
+import BaseLayout from "../components/layouts/BaseLayout"
+import BasePage from "../components/BasePage"
+import { useGetUser } from '../functions/user'
 import { Row, Col } from 'reactstrap';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import Link from 'next/link';
