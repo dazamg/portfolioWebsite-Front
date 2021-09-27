@@ -28,7 +28,7 @@ const Index = () => {
       loading={loading}
       navClass="transparent"
       className={`cover ${isFlipping ? 'cover-orange' : 'cover-blue'}`}>
-      <BasePage indexPage title="Portfolio - Kishon StClair">
+      <BasePage indexPage title="Portfolio - Kishon St Clair">
         <div className="main-section">
           <div className="background-image"></div>
           <Container>
@@ -52,7 +52,7 @@ const Index = () => {
                     <div className="back">
                       <div className="image image-2" >
                         <div className="hero-section-content">
-                          <h2>React and Next is Amazing! </h2>
+                          <h2>React and Nextjs is Amazing! </h2>
                             <div className="hero-section-content-intro">
                               You got a interesting project, I'm ready!
                             </div>
@@ -68,7 +68,7 @@ const Index = () => {
               <Col md="6" className="hero-welcome-wrapper">
                 <div className="hero-welcome-text">
                   <h1>
-                    Welcome to the portfolio website of Kishon St. Clair.
+                    Welcome to the portfolio website of Kishon St Clair.
                     Get informed, collaborate and discover projects I was working on through the years!
                   </h1>
                 </div>
@@ -85,7 +85,7 @@ const Index = () => {
                 />
                 <div className="hero-welcome-bio">
                   <h1>
-                    Let's take a look on my work.
+                    Let's take a look at my work.
                   </h1>
                 </div>
               </Col>

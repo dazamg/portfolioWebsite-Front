@@ -50,7 +50,7 @@ const About = () => {
                 </Col>
                 <Col md="6">
                   <div className={`${createFadeInClass()}`}>
-                    <p>My name is Kishon St. Clair and I am an software engineer and freelance developer. </p>
+                    <p>My name is Kishon St Clair and I am a Software Engineer and freelance developer. </p>
                     <p>
                       I am a bootcamper who loves the outdoors and treasure family. I have
                       experience working on a wide range of technologies and projects from Javascript development for frontend designs for SheSailed to

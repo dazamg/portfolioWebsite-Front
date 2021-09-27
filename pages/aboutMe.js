@@ -16,7 +16,7 @@ const AboutMe = () => {
         loading={loading}
         >
             <BasePage 
-              title="About me - Kishon StClair"
+              title="About me - Kishon St Clair"
               className="about-page"
               canonicalPath="/about">
               <Row className="mt-5">
@@ -29,7 +29,7 @@ const AboutMe = () => {
                 </Col>
                 <Col md="6">
                   <div >
-                    <p>My name is Kishon StClair and I am an software engineer and freelance developer. </p>
+                    <p>My name is Kishon St Clair and I am an software engineer and freelance developer. </p>
                     <p>
                       I am a bootcamper who loves the outdoors and treasure family. I have
                       experience working on a wide range of technologies and projects from Javascript development for frontend designs for SheSailed to
