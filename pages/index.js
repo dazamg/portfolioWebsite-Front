@@ -52,9 +52,9 @@ const Index = () => {
                     <div className="back">
                       <div className="image image-2" >
                         <div className="hero-section-content">
-                          <h2>React and Nextjs is Amazing! </h2>
+                          <h2>React.js and Next.js is Amazing! </h2>
                             <div className="hero-section-content-intro">
-                              You got a interesting project, I'm ready!
+                            Do you have an interesting project? I'm ready.
                             </div>
                         </div>    
                       </div>
@@ -68,8 +68,9 @@ const Index = () => {
               <Col md="6" className="hero-welcome-wrapper">
                 <div className="hero-welcome-text">
                   <h1>
-                    Welcome to the portfolio website of Kishon St Clair.
-                    Get informed, collaborate and discover projects I was working on through the years!
+                  Welcome to the portfolio website of Kishon St Clair. 
+                  Get informed, collaborate, and discover projects. 
+                  I've worked on it through the years!
                   </h1>
                 </div>
                 <Typed

@@ -52,16 +52,16 @@ const About = () => {
                   <div className={`${createFadeInClass()}`}>
                     <p>My name is Kishon St Clair and I am a Software Engineer and freelance developer. </p>
                     <p>
-                      I am a bootcamper who loves the outdoors and treasure family. I have
-                      experience working on a wide range of technologies and projects from Javascript development for frontend designs for SheSailed to
-                      modern mobile and web applications in React and Python.
+                    I am a boot camper who loves the outdoors and treasures family. I have experience working 
+                    on a wide range of technologies and projects from, Javascript development for frontend designs 
+                    for SheSailed to modern mobile and web applications in React and Python.
                     </p>
                     <p>
-                      Detail-oriented developer who over-delivers on organizational goals. 
-                      My approach blends a background in sales, organizing and design to solve problems 
-                      and drive innovation. I am a quick learner with an eye for detail and a passion for design. 
-                      I am thrilled to work collaboratively to develop innovative solutions and best practices for all stakeholders involved. 
-                      While I am most excited about using my front end skills, I do have the back end skills to dive deep into the code
+                    My programming approach comes from a background in sales, organizing, and design to solve problems 
+                    and drive innovation. I am a quick learner with a growth mindset and a passion for design. I enjoy 
+                    working collaboratively with cross-functional teams to develop innovative solutions that drive impact 
+                    for customers and businesses. While I am most adept at front-end, I’m expanding my capability on the 
+                    backend and can write small features.
                     </p>
           
                     <Link href="https://github.com/dazamg" >
