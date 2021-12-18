@@ -12,16 +12,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": function() { return /* binding */ getUserBlogs; }
 /* harmony export */ });
-/* harmony import */ var _serv_api_blogs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3717);
-/* harmony import */ var _utils_auth0__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1051);
+/* harmony import */ var utils_auth0__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1051);
+/* harmony import */ var serv_api_blogs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3717);
 
 
 async function getUserBlogs(req, res) {
   try {
     const {
       accessToken
-    } = await _utils_auth0__WEBPACK_IMPORTED_MODULE_1__/* .default.getSession */ .ZP.getSession(req);
-    const json = await new _serv_api_blogs__WEBPACK_IMPORTED_MODULE_0__/* .default */ .Z(accessToken).getByUser();
+    } = await utils_auth0__WEBPACK_IMPORTED_MODULE_0__/* .default.getSession */ .ZP.getSession(req);
+    const json = await new serv_api_blogs__WEBPACK_IMPORTED_MODULE_1__/* .default */ .Z(accessToken).getByUser();
     return res.json(json.data);
   } catch (e) {
     return res.status(e.status || 422).json(e.response.data);

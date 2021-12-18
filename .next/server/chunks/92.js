@@ -69,7 +69,7 @@ const BasePage = props => {
         content: "en_US"
       }, "og:locale"), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
         property: "og:url",
-        content: `${process.env.BASE_URL}${router.asPath}`
+        content: `${"http://localhost:3000"}${router.asPath}`
       }, "og:url"), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
         property: "og:type",
         content: "website"
@@ -78,7 +78,7 @@ const BasePage = props => {
         content: metaDescription
       }, "og:description"), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
         property: "og:image",
-        content: `${process.env.BASE_URL}/images/section-1.jpg`
+        content: `${"http://localhost:3000"}/images/section-1.jpg`
       }, "og:image"), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
         href: "https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap",
         rel: "stylesheet"
@@ -88,7 +88,7 @@ const BasePage = props => {
         href: "/images/favicon.ico"
       }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
         rel: "canonical",
-        href: `${process.env.BASE_URL}${canonicalPath ? canonicalPath : router.asPath}`
+        href: `${"http://localhost:3000"}${canonicalPath ? canonicalPath : router.asPath}`
       })]
     }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
       className: `${pageType} ${className}`,

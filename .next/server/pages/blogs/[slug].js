@@ -136,7 +136,8 @@ async function getStaticProps({
     props: {
       blog,
       author
-    }
+    },
+    revalidate: 60
   };
 }
 /* harmony default export */ var _slug_ = (BlogDetail);

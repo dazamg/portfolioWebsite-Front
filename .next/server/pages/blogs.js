@@ -84,37 +84,30 @@ var external_moment_default = /*#__PURE__*/__webpack_require__.n(external_moment
 
 const BlogCard = ({
   blog
-}) => /*#__PURE__*/(0,jsx_runtime_.jsxs)(external_reactstrap_.Col, {
-  md: {
-    size: 8,
-    offset: 2
-  },
-  children: [/*#__PURE__*/jsx_runtime_.jsx("div", {
-    children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
-      className: "post-preview clickable",
-      children: [/*#__PURE__*/jsx_runtime_.jsx(next_link.default, {
-        href: "/blogs/[slug]",
-        as: `/blogs/${blog.slug}`,
-        children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("a", {
-          children: [/*#__PURE__*/jsx_runtime_.jsx("h2", {
-            className: "post-title",
-            children: blog.title
-          }), /*#__PURE__*/jsx_runtime_.jsx("h3", {
-            className: "post-subtitle",
-            children: blog.subTitle
-          })]
-        })
-      }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("p", {
-        className: "post-meta",
-        children: ["Posted by", /*#__PURE__*/(0,jsx_runtime_.jsxs)("a", {
-          href: "/blogs/[slug]",
-          as: `/blogs/${blog.slug}`,
-          children: [" ", blog.author.name, " "]
-        }), "- ", external_moment_default()(blog.createdAt).format('llll')]
-      })]
-    })
-  }), /*#__PURE__*/jsx_runtime_.jsx("hr", {})]
-}, blog._id);
+}) => /*#__PURE__*/jsx_runtime_.jsx("div", {
+  children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
+    className: "post-preview clickable",
+    children: [/*#__PURE__*/jsx_runtime_.jsx(next_link.default, {
+      href: "/blogs/[slug]",
+      as: `/blogs/${blog.slug}`,
+      children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("a", {
+        children: [/*#__PURE__*/jsx_runtime_.jsx("h2", {
+          className: "post-title",
+          children: blog.title
+        }), /*#__PURE__*/jsx_runtime_.jsx("h3", {
+          className: "post-subtitle",
+          children: blog.subTitle
+        })]
+      })
+    }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("p", {
+      className: "post-meta",
+      children: ["Posted by", /*#__PURE__*/(0,jsx_runtime_.jsxs)("a", {
+        href: "#",
+        children: [" ", blog.author.name, " "]
+      }), "- ", external_moment_default()(blog.createdAt).format('LLLL')]
+    })]
+  })
+});
 
 /* harmony default export */ var components_BlogCard = (BlogCard);
 ;// CONCATENATED MODULE: ./pages/blogs/index.js
