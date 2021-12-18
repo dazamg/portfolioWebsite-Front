@@ -68,42 +68,79 @@ const Portfolio = ({
     loading: loadingU,
     children: /*#__PURE__*/jsx_runtime_.jsx(BasePage/* default */.Z, {
       noWrapper: true,
-      indexPage: true,
-      title: `${portfolio.title} - Kishon StClair`,
+      className: "portfolio-detail",
+      title: `${portfolio.title} - Kishon St Clair`,
       metaDescription: portfolio.description,
-      children: /*#__PURE__*/jsx_runtime_.jsx("div", {
-        className: "portfolio-detail",
-        children: /*#__PURE__*/jsx_runtime_.jsx("div", {
-          class: "cover-container d-flex h-100 p-3 mx-auto flex-column",
-          children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("main", {
-            role: "main",
-            class: "inner page-cover",
-            children: [/*#__PURE__*/jsx_runtime_.jsx("h1", {
-              class: "cover-heading",
-              children: portfolio.title
-            }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("p", {
-              class: "lead dates",
-              children: [formatDate(portfolio.startDate), " - ", formatDate(portfolio.endDate) || 'Present']
-            }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("p", {
-              class: "lead info mb-0",
-              children: [portfolio.jobTitle, " | ", portfolio.company, " | ", portfolio.location]
-            }), /*#__PURE__*/jsx_runtime_.jsx("p", {
-              class: "lead",
-              children: portfolio.description
-            }), /*#__PURE__*/jsx_runtime_.jsx("p", {
-              class: "lead",
-              children: /*#__PURE__*/jsx_runtime_.jsx("a", {
-                href: portfolio.companyWebsite,
-                target: "_",
-                class: "btn btn-lg btn-secondary",
-                children: "Visit Company"
-              })
-            })]
+      children: /*#__PURE__*/(0,jsx_runtime_.jsxs)(external_reactstrap_.Row, {
+        className: "mt-5",
+        children: [/*#__PURE__*/jsx_runtime_.jsx(external_reactstrap_.Col, {
+          md: "6",
+          children: /*#__PURE__*/jsx_runtime_.jsx("div", {
+            className: "cover-container d-flex h-100 p-3 mx-auto flex-column",
+            children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("main", {
+              role: "main",
+              className: "inner page-cover ",
+              children: [/*#__PURE__*/(0,jsx_runtime_.jsxs)("h1", {
+                className: "cover-heading",
+                children: [portfolio.title, " "]
+              }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("p", {
+                className: "lead dates",
+                children: [formatDate(portfolio.startDate), " - ", formatDate(portfolio.endDate) || 'Present']
+              }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("p", {
+                className: "lead info mb-0 color",
+                children: [portfolio.jobTitle, " | ", portfolio.company, " | ", portfolio.location]
+              }), /*#__PURE__*/jsx_runtime_.jsx("p", {
+                className: "lead",
+                children: portfolio.description
+              }), /*#__PURE__*/jsx_runtime_.jsx("p", {
+                className: "lead",
+                children: /*#__PURE__*/jsx_runtime_.jsx("a", {
+                  href: portfolio.companyWebsite,
+                  target: "_",
+                  className: "btn btn-lg btn-secondary",
+                  children: "Visit Company"
+                })
+              }), /*#__PURE__*/jsx_runtime_.jsx("divider", {})]
+            })
           })
-        })
+        }), /*#__PURE__*/(0,jsx_runtime_.jsxs)(external_reactstrap_.Col, {
+          children: [/*#__PURE__*/jsx_runtime_.jsx("div", {
+            children: /*#__PURE__*/jsx_runtime_.jsx("img", {
+              className: "left-side",
+              src: portfolio.images[0]
+            })
+          }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("p", {
+            className: "lead-1",
+            children: ["Tech Stack: ", portfolio.techStack]
+          })]
+        })]
       })
     })
-  });
+  }); // return (
+  //   <BaseLayout
+  //     navClass="transparent"
+  //     user={dataU} loading={loadingU}>
+  //     <BasePage
+  //       noWrapper
+  //       indexPage
+  //       title={`${portfolio.title} - Kishon StClair`}
+  //       metaDescription={portfolio.description}>
+  //       <div className="portfolio-detail">
+  //         <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+  //           <main role="main" class="inner page-cover">
+  //             <h1 className="cover-heading">{portfolio.title}</h1>
+  //             <p className="lead dates">{formatDate(portfolio.startDate)} - {formatDate(portfolio.endDate) || 'Present'}</p>
+  //             <p className="lead info mb-0">{portfolio.jobTitle} | {portfolio.company} | {portfolio.location}</p>
+  //             <p className="lead">{portfolio.description}</p>
+  //             <p className="lead">
+  //               <a href={portfolio.companyWebsite} target="_" className="btn btn-lg btn-secondary">Visit Company</a>
+  //             </p>
+  //           </main>
+  //         </div>
+  //       </div>
+  //     </BasePage>
+  //   </BaseLayout>
+  // )
 };
 
 async function getStaticPaths() {
